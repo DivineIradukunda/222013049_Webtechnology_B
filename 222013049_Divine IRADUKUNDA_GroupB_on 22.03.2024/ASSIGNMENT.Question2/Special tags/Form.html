@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--the details on student form-->
+	<title>Student Form</title>
+
+</head>
+<body bgcolor="green">
+	<a href="home.html" style="padding: 10px; color: white; background-color:blue;
+     text-decoration: none; margin-right: 15px;">HOME</a>
+    <a href="list.html" style="padding: 10px; color: white; background-color:blue; 
+    text-decoration: none; margin-right: 15px;">List</a>
+    <a href="form.html" style="padding: 10px; color: white; background-color:blue; 
+    text-decoration: none; margin-right: 15px;">Form</a>
+    <a href="table.html" style="padding: 10px; color: white; background-color:blue; 
+    text-decoration: none; margin-right: 15px;">Table</a>
+    <a href="radio.html" style="padding: 10px; color: white; background-color: blue;
+     text-decoration: none; margin-right: 15px;">Radio</a>
+     <br>
+
+     <br>
+     <center>
+        <!--description of our form-->
+     	<h1>Student Form</h1>
+     	<form action="" method="post" style="background-color: blue;align-items: center;width: 500px;height: 400px">
+     		 <label for="id">ID:</label>
+             <input type="text" id="ID" name="ID" required><br><br>
+
+             <label for="id">First name:</label>
+             <input type="text" id="fname" name="fname" required><br><br>
+
+             <label for="id">Last name:</label>
+             <input type="text" id="lname" name="lname" required><br><br>
+
+              <label for="id">Reg number:</label>
+             <input type="number" id="regnumber" name="regnumber" required><br><br>
+
+             <label >GENDER</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+
+             <label for="id">Address:</label>
+             <input type="text" id="address" name="address" required><br><br>
+
+             <label>Department</label>
+         <select>
+             <option >Finance</option>
+             <option >Development study</option>
+             <option >Accounting</option>
+             <Option>BIT</Option>
+             <option >Pharmacy</option>
+         </select>
+
+         <label>College</label>
+          <select>
+             <option >CBE</option>
+             <option >CAVM</option>
+             <option >CHMS</option>
+             <Option>CASS</Option>
+         </select>
+<br>
+          <label >STATUS</label>
+            <input type="radio" name="status" value="married">Married
+            <input type="radio" name="status" value="single">Single
+            <input type="radio" name="status" value="divorced">Divorced<br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" name="cnl" value="Cancel"><br>
+		
+     	</form>
+     </center>
+
+</body>
+</html>
